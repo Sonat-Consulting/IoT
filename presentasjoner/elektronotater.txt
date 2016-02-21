@@ -1,0 +1,20 @@
+P = U*I -> Effekt = spenning * strøm = Watt = Volt * Ampere
+
+Volt = Ampere * Ohm
+
+12
+
+Batteri
+10 amperetimer, 12V
+
+P = U*I
+W = 10 * 12 = 120W i en time eller 60W i to timer. For eksempel
+
+
+6V -> 2 motstander a 5k Ohm
+I = U / R
+Strøm = spenning / motstand
+6V / 10000 Ohm = 0,0006A
+Spenning på én motstand:
+U = I * R 
+0,0006 * 5000 = 3V
