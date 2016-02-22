@@ -1,6 +1,8 @@
 # Sonat fagdag 26/2-2016
+## 08:30 Velkommen 
+Sondre
 
-## 08:30 - 09:00 State of the union
+## 08:40 - 09:00 State of the union
 Jonny/Thomas
 
 ## 09:00 - 09:30 Introduksjon til Internet of Things
