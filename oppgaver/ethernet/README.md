@@ -8,3 +8,12 @@ For å gjøre tilgjengelig i Arduiono utviklingsmiljø laster du ned [biblioteke
 
 * åpne Arduiono IDE
 * gå til menyvalg __Skisse -> Administrer bibliotek -> Legg til ZIP bibliotek__ og finn frem ZIP filen du lastet ned 
+
+## Tilkoblinger
+Du kobler til Ethernet kortet til Arduino kortet som følger:
+* ENC SO -> Arduino pin 12
+* ENC SI -> Arduino pin 11
+* ENC SCK -> Arduino pin 13
+* ENC CS -> Arduino pin 8
+* ENC VCC -> Arduino 3V3 pin
+* ENC GND -> Arduino Gnd pin
