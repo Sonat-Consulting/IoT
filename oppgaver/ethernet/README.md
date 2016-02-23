@@ -13,9 +13,9 @@ For å gjøre tilgjengelig i Arduiono utviklingsmiljø laster du ned [biblioteke
 ![Ethernet kort](HR91105A.jpeg)
 
 Du kobler til Ethernet kortet til Arduino kortet som følger:
-* ENC SO -> Arduino pin 12
-* ENC SI -> Arduino pin 11
-* ENC SCK -> Arduino pin 13
-* ENC CS -> Arduino pin 8
-* ENC VCC -> Arduino 3V3 pin
-* ENC GND -> Arduino Gnd pin
+* ENC SO -> digital pin 12
+* ENC SI -> digital pin 11
+* ENC SCK -> digital pin 13
+* ENC CS -> digital pin 8
+* ENC VCC -> 3V3 pin
+* ENC GND -> Gnd pin
