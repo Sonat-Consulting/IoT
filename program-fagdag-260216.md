@@ -18,15 +18,12 @@ Arild Takvam-Borge
 
 ## 11:30 - 12:00 Lunsj
 
-## 12:00 - 14:00 Praktisk oppgave
+## 12:00 - 14:50 Praktiske oppgaver
 Arild, Arnstein og Sondre
 
-## 14:00 - 14:50 Idemyldring business case i grupper
+## 14:50 - 14:55 Tissepause 2.0
+
+## 14:55 - 15:30ish Idémyldring business case med innlagt diskusjon
 Alle
 
-## 14:50 - 15:00 Tissepause 2.0
-
-## 15:00 - 15:30 Framlegging av business case og diskusjon (10 m per gruppe)
-Alle
-
-## 15:30 -> Frilek 
+## 15:30ish -> Frilek 
