@@ -1,4 +1,6 @@
-# Sonat fagdag 26/2-2016
+![Sonat](Logo.Sonat.-transparent.png)
+#  Fagdag 26/2-2016
+
 ## 08:30 Velkommen 
 Sondre
 
