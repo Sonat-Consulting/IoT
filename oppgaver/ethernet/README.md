@@ -10,6 +10,8 @@ For å gjøre tilgjengelig i Arduiono utviklingsmiljø laster du ned [biblioteke
 * gå til menyvalg __Skisse -> Administrer bibliotek -> Legg til ZIP bibliotek__ og finn frem ZIP filen du lastet ned 
 
 ## Tilkoblinger
+![Ethernet kort](HR91105A.jpeg)
+
 Du kobler til Ethernet kortet til Arduino kortet som følger:
 * ENC SO -> Arduino pin 12
 * ENC SI -> Arduino pin 11
