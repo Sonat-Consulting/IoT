@@ -3,11 +3,11 @@ Oppgave: å få en buzzer til å pipe og lys til å lyse, med volum og lysstyrke sty
 Deler:
 - Arduino Uno
 - Breadboard
-- Red led
-- Green led
+- Red LED
+- Green LED
 - Buzzer
 - Ultrasonic sensor
-- 2x 1k ohm resistor
+- Ev. resistors
 - kabler
 
 Tips og triks:
@@ -16,6 +16,7 @@ Tips og triks:
 	- Langt bein betyr pluss
 	- Bruk de langsgående + og - feltene på breadboardet
 	- Den ultrasoniske sensoren har fire pins, Volt, trigger, echo og jord
+	- Husk at LED-ene ikke bør ha mer enn 18mA strøm gjennom seg!
 	
 - Kode:
 	- Pins som skal gi analog output, trenger ikke å konfigureres i setup()
@@ -26,3 +27,5 @@ Tips og triks:
 	
 - For de avanserte:
 	- Seriekoble LED-ene, koble på flere
+	- Parallellkoble resistors for å få sterkere (men ikke for sterkt!) lys i LED-ene
+	- Lag en robot
