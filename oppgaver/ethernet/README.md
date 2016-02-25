@@ -7,7 +7,7 @@ For å bruke denne trenger du et eget bibliotek kalt [EtherCard](https://github.
 For å gjøre tilgjengelig i Arduiono utviklingsmiljø laster du ned [biblioteket](https://github.com/jcw/ethercard/archive/master.zip)
 
 * åpne Arduiono IDE
-* gå til menyvalg __Skisse -> Administrer bibliotek -> Legg til ZIP bibliotek__ og finn frem ZIP filen du lastet ned 
+* gå til menyvalg __Skisse -> Administrer bibliotek -> Legg til ZIP bibliotek__ og finn frem ZIP filen du lastet ned
 
 ## Tilkoblinger
 ![Ethernet kort](HR91105A.jpeg)
@@ -19,3 +19,27 @@ Du kobler til Ethernet kortet til Arduino kortet som følger:
 * ENC CS -> digital pin 8
 * ENC VCC -> 3V3 pin
 * ENC GND -> Gnd pin
+
+## Programmering
+
+Når du har fått koblet opp gjenstår trenger vi et program. I første omgang for å hente en IP via DHCP.
+
+```arduino
+#include <enc28j60.h>
+#include <EtherCard.h>
+#include <net.h>
+
+byte mymac[] = // Skriv inn MAC
+
+void setup() {
+
+
+  // ... initialiser kort
+  ether.begin(sizeof Ethernet::buffer, mymac);
+  // alt annet enn returverdi 0 betyr feil
+
+  // ... gjør DHCP request. Returner boolean. True er suksess
+  ether.dhcpSetup();
+}
+
+```

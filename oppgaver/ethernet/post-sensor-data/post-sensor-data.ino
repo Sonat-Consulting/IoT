@@ -6,8 +6,8 @@
 byte mymac[] = { 0x74,0x69,0x69,0x2D,0x30,0x31 };
 byte Ethernet::buffer[700];
 
-boolean initiateDhcp(byte[] mac) {
-  if (ether.begin(sizeof Ethernet::buffer, mymac) == 0) {
+boolean initiateDhcp(byte *mac) {
+  if (ether.begin(sizeof Ethernet::buffer, mac) == 0) {
     return false;
   }
   return ether.dhcpSetup();
