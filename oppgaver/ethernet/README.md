@@ -28,6 +28,7 @@ Når du har fått koblet opp gjenstår trenger vi et program. I første omgang f
 #include <enc28j60.h>
 #include <EtherCard.h>
 #include <net.h>
+// de overnfor nevnte biblotekene MÅ være inkludert
 
 byte mymac[] = // Skriv inn MAC
 
@@ -42,4 +43,14 @@ void setup() {
   ether.dhcpSetup();
 }
 
+void loop() {
+
+  // Hva skal vi gjøre med IP-en?
+}
+
 ```
+
+Dersom dette går strålende kan vi prøve å kombinere dette med en av de foregående oppgavene. Noen ideer her?
+
+## Ekstra poeng
+Om du er helt tom for ideer kan du se på Sondre sitt forslag som kombinerer måling av temperatur og luftfuktighet med HTTP POST kall mot datainnsamlingstjener.
