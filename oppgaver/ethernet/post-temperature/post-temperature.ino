@@ -7,7 +7,7 @@
 // 1: bytt ut MAC adressen slik at alle får unik adresse
 byte mymac[] = { 0x74, 0x69, 0x69, 0x2D, 0x30, 0x31 };
 byte Ethernet::buffer[700];
-const char website[] PROGMEM = "192.168.1.134";
+const char website[] PROGMEM = "10.0.0.0.9";
 const char dbName[] PROGMEM = "metric";
 int port = 8083;
 String groupName = "gruppe1";
